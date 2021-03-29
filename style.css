@@ -1,0 +1,101 @@
+*{
+	font-family: "Sans-Serif";
+}
+header{
+	position: fixed;
+	width: 100%;
+	border: 2px solid grey;
+	background-color: black;
+	opacity: 0.75;
+}
+body{
+	
+}
+
+#head:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+.greet{
+	position: relative;
+	padding: 4vh;
+	font-size: 65px;
+	color: white;
+	text-align: center;
+}
+#browse-btn{
+	position: relative;
+	padding-bottom: 2rem;
+	font-size: 2vw;
+
+}
+#browse{
+	position: abolute;
+	height: 50px;
+	width: 12vw;
+	border-radius: 12px;
+	background-color: purple;
+	color: white;
+	border: 2px solid white;
+}
+
+#browse:hover{
+	background-color: white;
+	color: purple;
+    border: 2px solid purple;
+}
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	border: 2px solid white;
+	background-color: black;
+	opacity: 0.75;
+
+}
+.footer-padding{
+	padding-left: 2rem;
+}
+
+#videoBG {
+    position:fixed;
+    bottom: 1px;
+    z-index: -1;
+}
+
+#videoBG {
+    position:fixed;
+    z-index: -1;
+/*not work if the screen ratio is below 16/9*/
+    width:100vw;     
+    height: auto;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100vw;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background-image: url(mobileBG.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+        background-color: #464646;
+    }
+}
