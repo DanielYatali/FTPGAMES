@@ -8,8 +8,18 @@ header{
 	background-color: black;
 	opacity: 0.75;
 }
+#head{
+  padding: 5px; 
+  font-size: 20px; 
+  color: white;
+}
 body{
-	
+	  background-image: url(pic.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+    background-color: #464646;
 }
 
 #head:hover{
@@ -44,6 +54,11 @@ body{
 	background-color: white;
 	color: purple;
     border: 2px solid purple;
+}
+h4{
+  text-align: center; 
+  color: white; 
+  font-size: 30px;
 }
 footer{
 	width: 100%;
@@ -92,10 +107,27 @@ footer{
     }
     body {
         background-image: url(mobileBG.jpg);
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
+		    background-position: center center;
+		    background-repeat: no-repeat;
+		    background-attachment: fixed;
+		    background-size: cover;
         background-color: #464646;
     }
+    .greet{
+      font-size: 45px;
+      top: 25px;
+    }
+    #head{
+      font-size: 16px;
+    }
+    h4{
+      font-size: 17px;
+    }
+    #browse{
+      width: 100px;
+    }
+    #browse-btn{
+      font-size: 20px;
+    }
+  
 }
