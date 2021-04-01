@@ -1,20 +1,29 @@
 *{
 	font-family: "Sans-Serif";
+  box-sizing: border-box;
+}
+#tint{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
 }
 header{
 	position: fixed;
 	width: 100%;
 	border: 2px solid grey;
-	background-color: black;
-	opacity: 0.75;
+  border-radius: 4px;
+	background-color: #00000075;
 }
 #head{
+  box-sizing: border-box;
   padding: 5px; 
   font-size: 20px; 
   color: white;
 }
 body{
-	  background-image: url(pic.jpg);
+	  background-image: url(poster.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -31,8 +40,9 @@ body{
 	position: relative;
 	padding: 4vh;
 	font-size: 65px;
-	color: white;
+	color: gold;
 	text-align: center;
+  text-shadow: 2px 2px 0px white;
 }
 #browse-btn{
 	position: relative;
@@ -45,29 +55,29 @@ body{
 	height: 50px;
 	width: 12vw;
 	border-radius: 12px;
-	background-color: purple;
+	background-color: #00000088;
 	color: white;
 	border: 2px solid white;
 }
 
 #browse:hover{
-	background-color: white;
-	color: purple;
-    border: 2px solid purple;
+	background-color: #8800ff50;
+	color: black;
+  border: 2px solid black;
+  text-shadow: 1px 1px 0px white;
 }
 h4{
   text-align: center; 
   color: white; 
   font-size: 30px;
+  text-shadow: 2px 2px 0px gold;
 }
 footer{
 	width: 100%;
 	position: fixed;
 	bottom: 0px;
 	border: 2px solid white;
-	background-color: black;
-	opacity: 0.75;
-
+	background-color: #00000075;
 }
 .footer-padding{
 	padding-left: 2rem;
@@ -129,5 +139,4 @@ footer{
     #browse-btn{
       font-size: 20px;
     }
-  
 }
