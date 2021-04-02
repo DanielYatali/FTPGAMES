@@ -1,5 +1,5 @@
 *{
-	font-family: "sans serif";
+	font-family: 'Teko', sans-serif;
   box-sizing: border-box;
 }
 #tint{
@@ -40,7 +40,7 @@ body{
 	position: relative;
 	padding: 4vh;
 	font-size: 65px;
-	color: gold;
+	color: #810000;
 	text-align: center;
   text-shadow: 2px 2px 0px white;
 }
@@ -68,7 +68,7 @@ body{
 }
 h4{
   text-align: center; 
-  color: white; 
+  color: #222831 ; 
   font-size: 30px;
   text-shadow: 2px 2px 0px gold;
 }
