@@ -1,5 +1,5 @@
 function change_color(event){
-  document.querySelector(".greet").style.textShadow = "2px 2px 0px purple";
+  document.querySelector(".greet").style.textShadow = "2px 2px 0px black";
 }
 function revert_color(event){
   //document.querySelector(".greet").style.color = "gold";
