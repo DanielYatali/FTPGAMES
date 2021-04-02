@@ -4,6 +4,7 @@
 * {
     box-sizing: border-box;
     padding: 1em;
+    font-family: 'Teko', sans-serif;
 }
 
 html,body{
@@ -29,8 +30,8 @@ section{
 
 main{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr;
   grid-gap: 4px;
   background-color: gainsboro;
   color: white;
@@ -56,6 +57,54 @@ header, footer{
   grid-column: span 2;
 } 
 
+header{
+  height: 120px; 
+}
+
+footer{
+  height: 120px; 
+}
+
+h1{
+  position: absolute;
+  padding: 3px;
+  float: left; 
+  margin-left: 2%;
+  margin-top: 10px; 
+}
+
+ ul{
+  width: auto;
+  float: right;
+  margin-top: 4px; 
+  font-size: larger; 
+}
+
+.genres{
+  font-size: x-large;
+  text-align: center; 
+}
+
+.gheader{
+  text-align :center; 
+  font-size: xx-large;
+}
+
+
+.nav li {
+  font-size: x-large; 
+  display: inline-block; 
+  padding: 15px 30px; 
+  
+}
+
+
+
+a{
+  text-align: center;
+}
+
+
 aside{
   display: grid;
   color: #212121;
@@ -78,9 +127,9 @@ img{
   transition: 0.3s;
   background-color: white;
   grid-template-rows: 1fr 5fr 1fr;
-  padding:0;
-  align-items: stretch;
-  align-content: stretch;
+  padding: 0em ;
+   align-items: center;
+  justify-content: center;   
   border-radius: 5px;
 }
 
