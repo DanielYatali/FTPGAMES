@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+body{
+  background-color: #536162;
+}
+header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #536162;
+  padding-top: 20px;
+  padding-left: 20px
+}
+#navbtn{
+  font-size: 40px;
+  cursor:pointer;
+}
+#navbtn:hover{
+  color: white;
+}
+.nav{
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+  position: inherit;
+}
+.links{
+  padding-top: .75rem;
+  float: right;
+}
+.head{
+  color: black;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.head:hover{
+  font-size: 40px;
+  color: #f1f1f1;
+}
+
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: purple; /*Nav color*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+footer{
+  position: sticky;
+  padding-top: 1rem;
+  width: 100%;
+  bottom: 0;
+  background-color: #536162;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 20px
+}
+
+main{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  padding-left: 2rem;
+  background-color: gainsboro;
+  grid-gap: .5rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(225px, .5fr));
+  color: white;
+  max-width: 100%;
+  height: 100%;
+}
+.image-container{
+  border-radius: 8px 8px;
+  border: 3px solid black;
+  border-bottom:3px solid black;
+  width: 225px;
+  height: 180px;
+}
+.game{
+  cursor:pointer;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card{
+  width: 225px;
+  height:230px;
+  border-radius: 8px;
+  border-bottom:3px solid black;
+  border-left:3px solid black;
+  border-right:3px solid black;
+}
+
+.ss-image{
+  width: 200px;
+  height: 200px;
+  padding: 1em;
+}
+
+.title{
+  text-align: center;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+}
+
+.card {
+  display: grid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  grid-template-rows: 1fr 5fr 1fr;
+  padding: 0em ;
+  align-items: center;
+  justify-content: center;   
+  border-radius: 5px;
+}
+
