@@ -1,0 +1,354 @@
+/*Some styling for colors are mixed up kindah for the drop downs
+so if colors and stuff not changing just put as inline styling as it has precedence*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #323232;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-bottom: 2px solid #FFD70050;
+}
+#navbtn{
+  font-size: 40px;
+  cursor:pointer;
+  color: #f1f1f1;
+}
+#navbtn:hover{
+  font-size: 41px; 
+  color: #FFD70050; 
+}
+.nav{
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+  position: inherit;
+}
+.links{
+  padding-top: .75rem;
+  float: right;
+}
+.link{
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.head{
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 43px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-bottom: 30px; 
+}
+.link:hover{
+  color: #FFD70050;
+  font-size: 19px;
+}
+.head:hover{
+  font-size: 42px;
+  color: #FFD70050;
+}
+.search-bar{
+  display: inline-block;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #aaaaaa; /*Nav color*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  border-right:2px solid #FFD70050;
+}
+
+/* The navigation menu links */
+.sidenav h3 {
+  padding: 8px 8px 8px ;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+  padding-bottom: 30px; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px ;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+  padding-bottom: 30px; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #323232;
+  font-size: 34px; 
+  font-weight: bold; 
+}
+/*hover effect for both drop downs*/
+.sidenav h3:hover {
+  color: #323232;
+  font-size: 34px; 
+  font-weight: bold; 
+  cursor: pointer;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+ position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+.sidenav .search-bar{
+  position: relative;
+  width: 100%;
+  left: 15px;
+}
+.bar{
+  width: 70%;
+  height: 35px;
+}
+.search-btn{
+  height: 35px;
+  width: 35px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+footer{
+  position: sticky;
+  padding-top: 1rem;
+  width: 100%;
+  bottom: 0;
+  background-color:#323232;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-top: 2px solid #FFD70050;
+}
+
+main{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  background-color: gainsboro;
+  grid-gap: 0.6rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(225px, .5fr));
+  color: white;
+  max-width: 100%;
+  height: 100%;
+}
+.image-container{
+ border-bottom: 2px solid #FFD70050;
+  width: 225px;
+  height: 180px;
+}
+.game{
+  cursor:pointer;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; 
+  border-top: 2px solid #FFD70050;
+  border-left:2px solid #FFD70050;
+  border-right:2px solid #FFD70050;
+}
+
+.card{
+  width: 225px;
+  height:230px;
+  border-radius: 8px;
+  border-bottom:3px solid #FFD70050;
+  border-left:3px solid #FFD70050;
+  border-right:3px solid #FFD70050;
+}
+
+.ss-image{
+  width: 200px;
+  height: 200px;
+  padding: 1em;
+}
+
+.title{
+  text-align: center;
+  color: #323232;
+  font-size: 25px;
+}
+
+.card:hover {
+  box-shadow: 0 12px 18px 0 rgba(0,0,0,0.4);
+  transition: 0.5s;
+  width: 230px;
+  height:235px;
+}
+
+.card {
+  display: grid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  grid-template-rows: 1fr 5fr 1fr;
+  padding: 0em ;
+  align-items: center;
+  justify-content: center;   
+  border-radius: 5px;
+}
+span, h3{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#h2footer{
+  color: white;
+}
+
+.gheader{
+  color: #323232; 
+  text-align: center; 
+  padding-bottom: 50px; 
+  font-size: 55px; 
+  font-weight: bold; 
+}
+
+.nav-links{
+  padding-right: 25px; 
+  display: inline-block; 
+  float: right; 
+  padding-top: 23px; 
+  font-size: 20px; 
+  text-decoration: none;
+}
+
+#icon{
+	display: inline;
+	width: 100%;
+  position: absolute; 
+	width:130px; 
+	height:150px;
+  padding-left: 5px; 
+  padding-bottom: 90px; 
+  padding-top: -60px; 
+}
+
+/*Genre Button Section*/
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content h3 {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #aaaaaa;
+}
+
+.show {display: block;}
+/*The actual Genre button*/
+.genres{
+  color: black;
+  font-size: 40px;
+}
+.genres:hover{
+  color: white;
+  font-size: 42px;
+  transition: 0.3s;
+}
+
+
+
+/*Platfrom button Section*/
+.dropbtn1 {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 h3 {
+  background-color: #aaaaaa;
+  color: white;
+  width: 100%;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show1 {display: block;}
+
+/*Actual Platform button*/
+.platforms-title{
+  color: black;
+  font-size: 40px;
+}
+.platforms-title:hover{
+  color: white;
+  font-size: 42px;
+  transition: 0.3s;
+}
