@@ -42,7 +42,7 @@ body{
 
 #head:hover{
 	text-decoration: underline;
-	text-decoration-color: white;
+	text-decoration-color: rgb(111, 8, 8);
 }
 
 .greet{
@@ -79,7 +79,7 @@ h4{
   text-align: center; 
   color: #222831;
   font-size: 32px;
-  text-shadow: 1px 1px 0px gold;
+  text-shadow: 1px 1px 0px greenyellow;
 }
 footer{
 	position: fixed;

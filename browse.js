@@ -5,7 +5,7 @@ function output_games(result){
     let i = 0;
     while(i < 16){
        document.querySelector("main").innerHTML += `
-       <article style = "background-color: gold;"class ="card">
+       <article style = "background-color: #aaaaaa;"class ="card">
           <div class = "image-container">
              <img class = "game" src="${result[i].thumbnail}" alt = "${result[i].title}" onclick = "get_details(${result[i].id})" />
          </div>

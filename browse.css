@@ -9,16 +9,19 @@ header{
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #536162;
+  background-color: #323232;
   padding-top: 20px;
-  padding-left: 20px
+  padding-left: 20px;
+  border-bottom: 2px solid #FFD70050;
 }
 #navbtn{
   font-size: 40px;
   cursor:pointer;
+  color: #f1f1f1;
 }
 #navbtn:hover{
-  color: white;
+  font-size: 41px; 
+  color: #FFD70050; 
 }
 .nav{
   font-size: 20px;
@@ -31,15 +34,16 @@ header{
   float: right;
 }
 .head{
-  color: black;
+  color: #f1f1f1;
   text-decoration: none;
-  font-size: 32px;
+  font-size: 43px;
   font-weight: bold;
   padding-left: 10px;
+  padding-bottom: 30px; 
 }
 .head:hover{
-  font-size: 40px;
-  color: #f1f1f1;
+  font-size: 42px;
+  color: #FFD70050;
 }
 
 
@@ -50,34 +54,39 @@ header{
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: purple; /*Nav color*/
+  background-color: #aaaaaa; /*Nav color*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  border-right:2px solid #FFD70050;
 }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px ;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  text-align: center;
+  font-size: 30px;
+  color: #f1f1f1;
   display: block;
   transition: 0.3s;
+  padding-bottom: 30px; 
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #323232;
+  font-size: 34px; 
+  font-weight: bold; 
 }
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-  position: absolute;
+ position: absolute;
   top: 0;
-  right: 25px;
+  right: 40px;
   font-size: 36px;
-  margin-left: 50px;
+  //margin-left: 50px;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -96,10 +105,11 @@ footer{
   padding-top: 1rem;
   width: 100%;
   bottom: 0;
-  background-color: #536162;
+  background-color:#323232;
   font-size: 32px;
   font-weight: bold;
-  padding-left: 20px
+  padding-left: 20px;
+  border-top: 2px solid #FFD70050;
 }
 
 main{
@@ -117,9 +127,9 @@ main{
   height: 100%;
 }
 .image-container{
-  border-radius: 8px 8px;
-  border: 3px solid black;
-  border-bottom:3px solid black;
+  border-radius: 8px 8px 8px 8px;
+ // border: 3px #9e9d89;
+ // border-bottom:3px #9e9d89;
   width: 225px;
   height: 180px;
 }
@@ -128,15 +138,19 @@ main{
   object-fit: cover;
   width: 100%;
   height: 100%;
+  border-radius: 5px; 
+  border-top: 2px solid #FFD70050;
+  border-left:2px solid #FFD70050;
+  border-right:2px solid #FFD70050
 }
 
 .card{
   width: 225px;
   height:230px;
   border-radius: 8px;
-  border-bottom:3px solid black;
-  border-left:3px solid black;
-  border-right:3px solid black;
+  border-bottom:3px solid #FFD70050;
+  border-left:3px solid #FFD70050;
+  border-right:3px solid #FFD70050;
 }
 
 .ss-image{
@@ -147,11 +161,14 @@ main{
 
 .title{
   text-align: center;
-  color: black;
+  color: #323232;
+  font-size: 25px;
 }
 
 .card:hover {
-  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 12px 18px 0 rgba(0,0,0,0.4);
+  width: 230px;
+  height:235px;
 }
 
 .card {
@@ -170,3 +187,34 @@ span, h3{
   font-weight: bold;
 }
 
+#h2footer{
+  color: white;
+}
+
+.gheader{
+  color: #323232; 
+  text-align: center; 
+  padding-bottom: 50px; 
+  font-size: 55px; 
+  font-weight: bold; 
+}
+
+.nav-links{
+  padding-right: 25px; 
+  display: inline-block; 
+  float: right; 
+  padding-top: 23px; 
+  font-size: 20px; 
+  text-decoration: none;
+}
+
+#icon{
+	display: inline;
+	width: 100%;
+  position: absolute; 
+	width:130px; 
+	height:150px;
+  padding-left: 5px; 
+  padding-bottom: 90px; 
+  padding-top: -60px; 
+}
