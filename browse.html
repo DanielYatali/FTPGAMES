@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
-	<!DOCTYPE html>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<body id="main">
 		<header>
@@ -16,19 +16,21 @@
 				<ul class="nav">
 					<li class="nav"><span id = "navbtn"onclick="openNav()">&#9776;</span></li>
           	<li class="nav head"><a class = "head" href = "browse.html">Game Garage</a></li>
-            <!--	<img id = "icon" src="logo.png" 	 
-				 alt="logo"> --> 
-          	<!--
-          	<li class="nav-links"><a href="browse.html">Home</a></li>
-            <li class="nav-links"><a href="url">About</a></li>
-            <li class="nav-links"><a href="url">Contact Us</a></li>-->
+            <li class =  "nav logo"> <img id = "icon" src="logo.png" 	 
+				 alt="logo"></li>
+            <li class="nav-links"><a class = "link"  href="url">About</a></li>
+            <li class="nav-links"><a class  = "link" href="url">Contact Us</a></li>
           </ul> 
         </nav>
       </header>
 
    <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <aside">
+  <aside>
+     <form action="/action_page.php">
+      <input class = "search-bar" type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
       <h2 class="gheader" >  Genres</h2> 
           <ul style="list-style-type:none;" class="genres">
               <li><a href="url">FPS</a></li>
@@ -59,5 +61,4 @@
 
   </body>
   
-</html>
 </html>

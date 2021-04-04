@@ -33,6 +33,12 @@ header{
   padding-top: .75rem;
   float: right;
 }
+.link{
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
 .head{
   color: #f1f1f1;
   text-decoration: none;
@@ -41,11 +47,17 @@ header{
   padding-left: 10px;
   padding-bottom: 30px; 
 }
+.link:hover{
+  color: #FFD70050;
+  font-size: 19px;
+}
 .head:hover{
   font-size: 42px;
   color: #FFD70050;
 }
-
+.search-bar{
+  display: inline-block;
+}
 
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -127,9 +139,7 @@ main{
   height: 100%;
 }
 .image-container{
-  border-radius: 8px 8px 8px 8px;
- // border: 3px #9e9d89;
- // border-bottom:3px #9e9d89;
+ border-bottom: 2px solid #FFD70050;
   width: 225px;
   height: 180px;
 }
