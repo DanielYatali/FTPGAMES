@@ -234,7 +234,16 @@ span, h3{
 }
 
 #h2footer{
+   position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ padding-top: 10px;
+    padding-left: 10px;
+  background-color:#323232;
   color: white;
+  text-align: left;
+border-top: 2px solid #FFD70050;
 }
 
 .gheader{
@@ -354,4 +363,116 @@ span, h3{
   color: white;
   font-size: 42px;
   transition: 0.3s;
+}
+
+.name-black{
+  font-size: 47px; 
+  color: #f1f1f1; 
+  font-weight: bold; 
+}
+
+.description{
+  font-size: 30px; 
+  color: #f1f1f1; 
+  font-weight: bold; 
+
+}
+
+.gdescription{
+  font-size: 23px; 
+  color: #f1f1f1;
+  padding-bottom: 0.5em; 
+}
+
+.hgenre{
+  font-size: 25px; 
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.genre{
+  font-size: 23px; 
+  color: #f1f1f1;
+  padding-bottom: 0.5em; 
+}
+
+.hmsr{ 
+  font-size: 30px; 
+  color: #f1f1f1; 
+  font-weight: bold;
+}
+
+.msr{
+   font-size: 25px; 
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.padding{
+  padding-bottom: 1.5em; 
+  color: #f1f1f1;
+  font-size: 23px; 
+}
+
+.specs{
+  font-size: 23px; 
+  color: #f1f1f1;
+  padding-bottom: 0.5em; 
+}
+
+.ss{
+  font-size: 30px; 
+  font-weight: bold;
+  color: #f1f1f1;
+  padding-bottom: 1em; 
+}
+
+.spacing{
+  padding-bottom: 2em; 
+  font-size: 23px; 
+  color: #f1f1f1;
+}
+
+.ss-image{
+  width:280px; 
+	height:200px;
+  border-radius: 3px 3px 3px 3px;
+  transition:transform 0.25s ease;
+  display: inline;
+  padding-bottom: 2.3em; 
+  padding-left: 2em;
+  padding-right: 2em; 
+}
+
+.ss-image:hover{
+  -webkit-transform:scale(1.55); 
+    transform:scale(1.55);
+}
+
+.dbutton{
+  font-size: 40px; 
+  text-decoration-line: none; 
+  color: greenyellow; 
+}
+
+.dbutton:hover{
+  font-size: 43px;
+  color: greenyellow ;  
+  font-weight: bold; 
+}
+
+ 
+#communityPg{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   padding-top: .75rem;
+   float :right;
+   margin-right: 15px;
+  
+}
+#communityPg:hover{
+  color: #FFD70050;
+  font-size: 19px;
 }

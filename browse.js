@@ -22,24 +22,24 @@ function output_game_details(result){
      let screenshots_length = result.screenshots.length;
      let i = 0;
      document.querySelector("main").innerHTML = `
-     <h2 class = "name black">${result.title}</h2>
+     <h2 class = "name-black">${result.title}</h2>
      <div class = "details">
          <h3 class = "description">Description:</h3>
-         <p class = "description"> &nbsp;${result.description}</p>
-         <p class = "genre"> <span>Genre:</span>  &nbsp; ${result.genre} </p>
-         <p class = "platform"><span>Platform:</span> &nbsp; ${result.platform}</p>
-         <p class = "publisher"><span>Publisher:</span> &nbsp; ${result.publisher} </p>
-         <p class = "release_date"> <span>Release Date:</span> &nbsp; ${result.release_date}</p>
+         <p class = "gdescription"> &nbsp;${result.description}</p>
+         <p class = "genre"> <span class = "hgenre"> Genre:</span>  &nbsp; ${result.genre} </p>
+         <p class = "genre"><span class ="hgenre">Platform:</span> &nbsp; ${result.platform}</p>
+         <p class = "genre"><span class="hgenre">Publisher:</span> &nbsp; ${result.publisher} </p>
+         <p class = "genre, padding"> <span class="hgenre" >Release Date:</span> &nbsp; ${result.release_date}</p>
      </div>
 
      <div class = "system-requirements">
-         <p><span>Minimum System Requirements: </span></p>
-         <p><span>Processor:</span> &nbsp; ${result.minimum_system_requirements.os} </p>
-         <p><span>Memory:</span> &nbsp; ${result.minimum_system_requirements.memory} </p>
-         <p><span>Graphics:</span> &nbsp; ${result.minimum_system_requirements.graphics} </p>
-         <p><span>Storage:</span> &nbsp; ${result.minimum_system_requirements.storage} </p>
+         <p><span class = "hmsr" >Minimum System Requirements: </span></p>
+         <p class = "specs"><span class ="msr">Processor:</span> &nbsp; ${result.minimum_system_requirements.os} </p>
+         <p class = "specs"><span class ="msr">Memory:</span> &nbsp; ${result.minimum_system_requirements.memory} </p>
+         <p class = "specs"><span class ="msr">Graphics:</span> &nbsp; ${result.minimum_system_requirements.graphics} </p>
+         <p class = "specs, spacing"><span class ="msr">Storage:</span> &nbsp; ${result.minimum_system_requirements.storage} </p>
      </div>
-     <h3>ScreenShots:</h3>`;
+     <h3 class = "ss" >ScreenShots:</h3>`;
      //Rendering screen shots
       while(i < screenshots_length){
         document.querySelector("main").innerHTML += `
@@ -48,9 +48,9 @@ function output_game_details(result){
       }
       document.querySelector("main").innerHTML += `
      <div class = "download"> 
-          <a href = "${result.game_url}" target="_blank" >Download Game</a>
+          <a class = "dbutton" href = "${result.game_url}" target="_blank" >Download Game</a>
           <br>
-          <a href = "${result.freetogame_profile_url}" target="_blank">Play For Free</a>
+          <a class = "dbutton" href = "${result.freetogame_profile_url}" target="_blank">Play For Free</a>
      </div>`;
 
 }
