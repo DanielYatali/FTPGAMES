@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FreeGames</title>
+	<link rel="stylesheet" href="browse.css" />
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<body id="main">
+		<header>
+			<nav>
+				<ul class="nav">
+					<li class="nav"><span id = "navbtn"onclick="openNav()">&#9776;</span></li>
+          	<li class="nav head"><a class = "head" href = "browse.html">Game Garage</a></li>
+            <li class =  "nav logo"> <img id = "icon" src="logo.png" 	 
+				 alt="logo"></li>
+            <li class="nav-links"><a class = "link"  href="url">About</a></li>
+            <li class="nav-links"><a class  = "link" href="url">Contact Us</a></li>
+          </ul> 
+        </nav>
+      </header>
+
+   <div id="mySidenav" class="sidenav">
+  <aside>
+     <div class = "search-bar">
+     	<br>
+      <input id = "text-bar"class = "bar" type="text" placeholder="Search.." name="search">
+      <button onclick = "fetch_data_search()"class = "search-btn" type="submit"><i class="fa fa-search"></i></button>
+    </div>
+    <a href="javascript:void(0)" class="closebtn" style = "font-size: 30px"onclick="closeNav()">&#9776;</a><br>
+      <div class="dropdown">
+  <h1 onclick="myFunction()" class="dropbtn genres">Genres</h1>
+  <div id="myDropdown" class="dropdown-content">
+    		  <h3 onclick = "sort('Shooter')">Shooter</h3>
+    		  <h3 onclick = "sort('Strategy')">Strategy</h3>
+    		  <h3 onclick = "sort('MMORPG')">MMORPG</h3>
+    		  <h3 onclick = "sort('Fighting')">Fighting</h3>
+    		  <h3 onclick = "sort('card')">Card Games</h3>
+    		  <h3 onclick = "sort('MOBA')">MOBA</h3>
+  </div>
+
+  <div class="dropdown1">
+  <h1 onclick="myFunction1()" class="dropbtn1 platforms-title">Platforms</h1>
+  <div id="myDropdown1" class="dropdown-content1">
+    		  <h3 onclick = "sort_platform('pc')"class = "platforms">PC</h3>
+    		  <h3 onclick = "sort_platform('browser')"class = "platforms">Web Browser</h3>
+  </div>
+</div>
+   </aside>
+
+</div>
+
+ 	<main style = "background-color: #414141;">
+
+  <!--<article class ="card">
+  	<div class = "image-container">
+  		 <img class = "game" src="">
+  	</div>
+   
+    <p class="title">Strawberries</p>
+    
+  </article>-->
+
+    </main>
+    <!--<footer><p id="h2footer">Footer</p></footer>-->
+    <script src="browse.js"></script>
+
+  </body>
+  
+</html>
