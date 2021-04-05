@@ -21,10 +21,10 @@ function output_games(result){
                     <p class="title">${result[i].title}</p>
               </div>
 
-              <div onclick = "get_details(${result[i].id})" class="flip-card-back">
-                <h1 class = "title">${result[i].title}</h1> 
+              <div  class="flip-card-back">
+                <h1 class = "title1">${result[i].title}</h1> 
                 <p class = "short-description"><span class = "title-s-description"></span>${result[i].short_description}</p> 
-                <p class = "genre-back"><line class = "back-genre-title">Genre:&nbsp; </line>${result[i].genre}</p>
+                <button class="button" onclick = "get_details(${result[i].id})"><span>More Details</span></button>
              </div>
         </div>
     </div>
