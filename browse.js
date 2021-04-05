@@ -10,11 +10,28 @@ function output_games(result){
     window.scrollTo(0, 0);
     while(i < 16){
        document.querySelector("main").innerHTML += `
-       <article style = "background-color: #aaaaaa;"class ="card">
-          <div class = "image-container">
-             <img class = "game" src="${result[i].thumbnail}" alt = "${result[i].title}" onclick = "get_details(${result[i].id})" />
-         </div>
-      <p class="title">${result[i].title}</p>`;
+
+   <div class="flip-card">
+        <div class="flip-card-inner">
+              <div class="flip-card-front">
+                   <article style = "background-color: #aaaaaa;"class ="card">
+                       <div class = "image-container">
+                           <img class = "game" src="${result[i].thumbnail}" alt = "${result[i].title}"  />
+                       </div>
+                    <p class="title">${result[i].title}</p>
+              </div>
+
+              <div class="flip-card-back">
+                <h1 class = "title">${result[i].title}</h1> 
+                <p class = "short-description"><span class = "title-s-description"></span>${result[i].short_description}</p> 
+                <p class = "genre-back"><line class = "back-genre-title">Genre:&nbsp; </line>${result[i].genre}</p>
+             </div>
+        </div>
+    </div>
+
+
+
+       `;
       i += 1;
     }
 }
@@ -225,7 +242,8 @@ function output_sort(result, field){
   while(i < length){
   	//You would think i wouldnt need this if statment since i fetched the genre
   	//data from the api however this api needs help kix.
-  	//This function was reused to display the local data in the event that the api does not fetch.
+  	//However this function was reused to display the local data in the event that
+  	//the api does not fetch.
   	if(field == result[i].genre){
     document.querySelector("main").innerHTML += `
        <article style = "background-color: #aaaaaa;"class ="card">
