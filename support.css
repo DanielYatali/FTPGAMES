@@ -1,0 +1,134 @@
+*{
+	font-family: 'Teko';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  padding: 0;
+	margin: 0;
+	width: 100%;
+	border-bottom: 2px solid #ffb101;
+	background-color: #00000099;
+}
+.headlink{
+	display: inline-block;
+  box-sizing: border-box;
+  padding: 5px; 
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+.headlink:hover{
+  color: #ffb101;
+  font-size: 19px;
+}
+
+body{
+  background-color: #323232;
+}
+#supHeader{
+	
+	font-size: 45px;
+	color: #ffb101;
+	text-align: center;
+  text-shadow: 2px 2px 0px black;
+}
+.speech{
+  text-align: center; 
+  color: #ffb101;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px black;
+}
+footer{
+		position: fixed;
+	font-size: 21px;
+	box-sizing: border-box;
+	bottom: 0vh;
+	width: 100%;
+	padding-top: 1rem;
+	border-top: 2px solid #ffb101;
+	background-color: #00000099;
+}
+.footer-padding{
+	padding-left: 2rem;
+  color: #ffb101;
+  font-size: 20px;
+  text-shadow: 1px 1px 0px black;
+}
+
+ #par1{
+	font-size: 25px;
+	color: #ffb101;
+	text-align: center;
+}
+
+.paypal {
+    height: 46px;
+    width: 86px;
+    background-color: #323232;
+    display:inline-block;
+}
+.mastercard {
+    height: 46px;
+    width: 76px;
+    background-color: #323232;
+    display:inline-block;
+}
+.bitcoin{
+  height: 46px;
+  width: 178px;
+  background-color: #323232;
+  display:inline-block;
+}
+.applepay{
+  height: 46px;
+  width: 76px;
+  background-color: #323232;
+  display:inline-block;
+}
+.visa{
+  height: 46px;
+  width: 76px;
+  background-color: #323232;
+  display:inline-block;
+}
+.dogecoin{
+  height: 60px;
+  width: 60px;
+  background-color: #323232;
+  display:inline-block;
+}
+#paypalBtn{
+  background-color: #323232;
+  margin-left :10%;
+}
+
+#masterCardBtn{
+  background-color: #323232;
+  margin-left :10%;
+}
+#bitcoinBtn{
+  background-color: #323232;
+  margin-left :10%;
+}
+#visaBtn{
+  background-color: #323232;
+  margin-left :10%;
+}
+#applepayBtn{
+  background-color: #323232;
+  margin-left :10%;
+}
+#dogecoinBtn{
+  background-color: #323232;
+  margin-left :10%;
+}
+.buttons{
+  background-color: #323232;
+  
+
+}
+
+  

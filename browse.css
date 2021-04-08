@@ -235,7 +235,7 @@ span, h3{
 }
 
 #h2footer{
-   position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -463,7 +463,7 @@ border-top: 2px solid #FFD70050;
 }
 
  
-#communityPg{
+#supportPg{
    color: white;
    text-decoration: none;
    font-size: 20px;
@@ -473,7 +473,7 @@ border-top: 2px solid #FFD70050;
    margin-right: 15px;
   
 }
-#communityPg:hover{
+#supportPg:hover{
   color: #FFD70050;
   font-size: 19px;
 }
@@ -597,4 +597,13 @@ border-top: 2px solid #FFD70050;
   color:  #323232; 
   font-weight: bold; 
   font-size: 28px; 
+}
+#text-bar{
+  background-color: #FFD70050;
+}
+ .fa-search{
+ background-color: #FFD70050;
+}
+.search-btn{
+ background-color:  #FFD70050;
 }
