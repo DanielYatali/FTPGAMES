@@ -234,18 +234,17 @@ span, h3{
   font-weight: bold;
 }
 
-#h2footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
+footer{
+  position: sticky;
+  float: bottom;
+  height: 40px;
   width: 100%;
- padding-top: 10px;
-    padding-left: 10px;
   background-color:#323232;
   color: white;
   text-align: left;
-border-top: 2px solid #FFD70050;
+  border-top: 2px solid #FFD70050;
 }
+
 
 .gheader{
   color: #323232; 
@@ -453,7 +452,7 @@ border-top: 2px solid #FFD70050;
 .dbutton{
   font-size: 40px; 
   text-decoration-line: none; 
-  color: greenyellow; 
+  color: greenyellow;
 }
 
 .dbutton:hover{
@@ -463,19 +462,20 @@ border-top: 2px solid #FFD70050;
 }
 
  
-#supportPg{
+.supportPg{
    color: white;
    text-decoration: none;
-   font-size: 20px;
+   font-size: 25px;
    font-weight: bold;
    padding-top: .75rem;
    float :right;
    margin-right: 15px;
+   padding : 1rem;
   
 }
-#supportPg:hover{
+.supportPg:hover{
   color: #FFD70050;
-  font-size: 19px;
+  font-size: 23.75px;
 }
 
 .flip-card {
@@ -606,4 +606,25 @@ border-top: 2px solid #FFD70050;
 }
 .search-btn{
  background-color:  #FFD70050;
+}
+.footer-link{
+  display: none;
+}
+/*Mobile view section
+When the screen is smaller than 600px*/ 
+@media screen and (max-width:600px) {
+  .footer-link{
+  display: initial;
+  }
+  .link{
+    display: none;
+  }
+  #main {
+  transition: none;
+}
+}
+
+.bg-tint{
+  /*z-index: 1;*/
+  background-color: #000000;
 }

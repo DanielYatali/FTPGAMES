@@ -8,7 +8,7 @@ header{
 	padding-top: .5rem;
 	padding-bottom: .5rem;
 	width: 100%;
-	border-bottom: 2px solid #ffb101;
+	border-bottom: 2px solid #FFD70050;
 	background-color: #00000099;
 }
 
@@ -19,6 +19,7 @@ header{
   color: #f1f1f1;
   text-decoration: none;
   font-weight: bold;
+  font-size: 22px; 
 }
 .headlink:hover{
   color: #ffb101;
@@ -34,14 +35,17 @@ body{
 	
 	font-size: 35px;
 	color: #ffb101;
-	text-align: center;
+	text-align: left;
   text-shadow: 2px 2px 0px black;
+  padding-left: 1.45em; 
 }
 .speech{
-  text-align: center; 
-  color: #ffb101;
-  font-size: 25px;
+  text-align: left; 
+  color: #f1f1f1;
+  font-size: 28px;
   text-shadow: 1px 1px 0px black;
+  padding-left: 2em; 
+  padding-right: 2em; 
 }
 footer{
 	position: fixed;
@@ -50,12 +54,25 @@ footer{
 	bottom: 0vh;
 	width: 100%;
 	padding-top: 1rem;
-	border-top: 2px solid #ffb101;
+	border-top: 2px solid #FFD70050;
 	background-color: #00000099;
 }
 .footer-padding{
 	padding-left: 2rem;
-  color: #ffb101;
-  font-size: 20px;
+  color: #f1f1f1;
+  font-weight: bold; 
+  font-size: 22px;
   text-shadow: 1px 1px 0px black;
+}
+
+.email{
+  color: #28b5b5; 
+  font-size: 26px; 
+}
+
+.email:hover{
+  font-size: 28px;
+  color: #28b5b5;
+  text-decoration: none; 
+  font-weight: bold; 
 }

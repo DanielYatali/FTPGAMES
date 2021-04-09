@@ -9,7 +9,7 @@ header{
   padding: 0;
 	margin: 0;
 	width: 100%;
-	border-bottom: 2px solid #ffb101;
+	border-bottom: 2px solid #FFD70050;
 	background-color: #00000099;
 }
 .headlink{
@@ -21,7 +21,7 @@ header{
   font-weight: bold;
 }
 .headlink:hover{
-  color: #ffb101;
+  color: #FFD70050;
   font-size: 19px;
 }
 
@@ -34,6 +34,7 @@ body{
 	color: #ffb101;
 	text-align: center;
   text-shadow: 2px 2px 0px black;
+  padding-top: 1em; 
 }
 .speech{
   text-align: center; 
@@ -48,12 +49,12 @@ footer{
 	bottom: 0vh;
 	width: 100%;
 	padding-top: 1rem;
-	border-top: 2px solid #ffb101;
+	border-top: 2px solid #FFD70050;
 	background-color: #00000099;
 }
 .footer-padding{
 	padding-left: 2rem;
-  color: #ffb101;
+  color: #FFD70050;
   font-size: 20px;
   text-shadow: 1px 1px 0px black;
 }
@@ -129,6 +130,10 @@ footer{
   background-color: #323232;
   
 
+}
+
+.icons{
+  text-align: center;  
 }
 
   
