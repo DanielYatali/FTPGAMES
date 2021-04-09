@@ -63,7 +63,7 @@ function output_games(result){
 //Function displays game details when "More Details" is clicked
 function output_game_details(result){
 	window.scrollTo(0, 0);
-  document.querySelector("main").style.backgroundImage = 'url( '+ result.screenshots[1].image + ')';
+  /*document.querySelector("main").style.backgroundImage = 'url( '+ result.screenshots[1].image + ')';*/
 	let bool = result.hasOwnProperty('minimum_system_requirements');
     document.querySelector("main").style.display = "block";
      document.querySelector("main").style.color = "black";

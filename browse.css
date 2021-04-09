@@ -148,17 +148,7 @@ body{
   .sidenav a {font-size: 18px;}
 }
 
-footer{
-  position: sticky;
-  padding-top: 1rem;
-  width: 100%;
-  bottom:0;
-  background-color:#323232;
-  font-size: 32px;
-  font-weight: bold;
-  padding-left: 20px;
-  border-top: 2px solid #FFD70050;
-}
+
 
 main{
   padding-top: 1rem;
@@ -236,14 +226,19 @@ span, h3{
 
 footer{
   position: sticky;
-  float: bottom;
+  bottom: 0;
   height: 40px;
   width: 100%;
   background-color:#323232;
   color: white;
   text-align: left;
   border-top: 2px solid #FFD70050;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 20px;
 }
+
+
 
 
 .gheader{
@@ -467,10 +462,9 @@ footer{
    text-decoration: none;
    font-size: 25px;
    font-weight: bold;
-   padding-top: .75rem;
    float :right;
    margin-right: 15px;
-   padding : 1rem;
+   padding : 0.25rem;
   
 }
 .supportPg:hover{
@@ -624,7 +618,3 @@ When the screen is smaller than 600px*/
 }
 }
 
-.bg-tint{
-  /*z-index: 1;*/
-  background-color: #000000;
-}
