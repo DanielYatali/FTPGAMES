@@ -6,6 +6,7 @@ so if colors and stuff not changing just put as inline styling as it has precede
     box-sizing: border-box;
     font-family: 'Teko', sans-serif;
 }
+
 header{
   z-index: 1;
   position: sticky;
