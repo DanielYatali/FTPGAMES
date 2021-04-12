@@ -614,8 +614,6 @@ When the screen is smaller than 600px*/
   .link{
     display: none;
   }
-  #main {
-  transition: none;
 }
-}
+
 

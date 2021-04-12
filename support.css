@@ -1,5 +1,5 @@
 *{
-	font-family: 'Teko';
+	font-family: 'Teko', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,16 +13,19 @@ header{
 	background-color: #00000099;
 }
 .headlink{
+  font-size: 25px;
 	display: inline-block;
   box-sizing: border-box;
-  padding: 5px; 
+  padding-left: 1em; 
+  padding-top: 5px;
+  padding-bottom: 5px; 
   color: #f1f1f1;
   text-decoration: none;
   font-weight: bold;
 }
 .headlink:hover{
   color: #FFD70050;
-  font-size: 19px;
+  font-size: 23px;
 }
 
 body{
@@ -43,10 +46,10 @@ body{
   text-shadow: 1px 1px 0px black;
 }
 footer{
-		position: fixed;
+	position: fixed;
 	font-size: 21px;
 	box-sizing: border-box;
-	bottom: 0vh;
+	bottom: 0;
 	width: 100%;
 	padding-top: 1rem;
 	border-top: 2px solid #FFD70050;
@@ -70,38 +73,45 @@ footer{
     width: 86px;
     background-color: #323232;
     display:inline-block;
+    cursor: pointer;
 }
 .mastercard {
+  cursor: pointer;
     height: 46px;
     width: 76px;
     background-color: #323232;
     display:inline-block;
 }
 .bitcoin{
+  cursor: pointer;
   height: 46px;
   width: 178px;
   background-color: #323232;
   display:inline-block;
 }
 .applepay{
+  cursor: pointer;
   height: 46px;
   width: 76px;
   background-color: #323232;
   display:inline-block;
 }
 .visa{
+  cursor: pointer;
   height: 46px;
   width: 76px;
   background-color: #323232;
   display:inline-block;
 }
 .dogecoin{
+  cursor: pointer;
   height: 60px;
   width: 60px;
   background-color: #323232;
   display:inline-block;
 }
 #paypalBtn{
+  cursor: pointer;
   background-color: #323232;
   margin-left :10%;
 }
