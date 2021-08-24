@@ -31,4 +31,4 @@
 * `API`
 
 #### Some Extra Info:
-* Purpose: Year 1 Semester 2 INFO 1601 Final Project
+* Purpose: Year 1 Semester 2 `INFO 1601` Final Project
