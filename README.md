@@ -7,15 +7,15 @@
 
 ### HP Office Paper Members:
 
-#### * [Aadarsh Pooran](https://github.com/AadarshPooran)
+* #### [Aadarsh Pooran](https://github.com/AadarshPooran)
 
-#### * [Daniel Yatali](https://github.com/DanielYatali)
+* #### [Daniel Yatali](https://github.com/DanielYatali)
 
-#### * [Jarod Esareesingh](https://github.com/Updeus)
+* #### [Jarod Esareesingh](https://github.com/Updeus)
 
-#### * [Saeed Badree](https://github.com/SaeedBadree)
+* #### [Saeed Badree](https://github.com/SaeedBadree)
 
-#### * [Andre Racha](https://github.com/AndreRacha)
+* #### [Andre Racha](https://github.com/AndreRacha)
 
 #### [Link to website](https://hpofficepaper-freegames.netlify.app)
 
