@@ -4,16 +4,23 @@ Grab a chair, some snacks and even grab a friend and get ready to Game On, with 
 
 HP Office Paper Members:
 
-1. Aadarsh Pooran
+1. [Aadarsh Pooran](https://github.com/AadarshPooran)
 
-2. Daniel Yatali
+2. [Daniel Yatali](https://github.com/DanielYatali)
 
-3. Jarod Esareesingh
+3. [Jarod Esareesingh](https://github.com/Updeus)
 
-4. Saeed Badree
+4. [Saeed Badree](https://github.com/SaeedBadree)
 
-5. Andre Racha
+5. [Andre Racha](https://github.com/AndreRacha)
 
-Link to website: https://hpofficepaper-freegames.netlify.app/
+[Link to website](https://hpofficepaper-freegames.netlify.app)
 
-Video Presentation Link: https://youtu.be/og1y8cgCMAQ
+[Video Presentation Link](https://youtu.be/og1y8cgCMAQ)
+
+#### What We Learnt:
+* `Javascript`
+* `CSS`
+* `HTML`
+* `DOM`
+* `API`
