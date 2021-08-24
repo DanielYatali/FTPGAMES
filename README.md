@@ -21,6 +21,8 @@ HP Office Paper Members:
 
 [Video Presentation Link](https://youtu.be/og1y8cgCMAQ)
 
+#### [API](https://www.freetogame.com/api-doc)
+
 #### What We Learnt:
 * `Javascript`
 * `CSS`
