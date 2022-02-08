@@ -30,5 +30,7 @@
 * `DOM`
 * `API`
 
+* Date Created: 20/04/2021 (dd/mm/yy)
+
 #### Some Extra Info:
 * Purpose: Year 1 Semester 2 `INFO 1601` Final Project
